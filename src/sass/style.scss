@@ -1,0 +1,29 @@
+@import './variables';
+@import './mixins';
+@import './fonts';
+@import './header';
+@import './introContainer';
+@import './contactsContainer';
+@import './sliderContainer';
+@import './phoneContainer';
+@import './featuresContainer';
+@import './featuresIcons';
+@import './featuresNav';
+@import './featuresSlide';
+@import './tasksContainer';
+@import './sliderMiddle';
+@import './benefitsContainer';
+@import './partnersContainer';
+@import './modulesContainer';
+@import './quickstartContainer';
+@import './additionalmodulesContainer';
+@import './industryContainer';
+@import './footerContainer';
+@import './sliderSlick';
+@import './navigation';
+
+
+body, p, h1, h2, h3, h4, h5, h6, ul, li {
+    @include reset-style;
+    font-family: 'Gotham';
+}

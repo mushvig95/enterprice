@@ -1,0 +1,85 @@
+.contacts-container {
+    @media only screen and (max-width: 800px) {
+       display: none;
+      }
+    @include centered;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    &-call {  
+        box-shadow: 0px 0px 20px 0px rgba(35, 31, 32, 0.2);
+        padding: 10px;
+        @media only screen and (max-width: 938px) {
+            width: 380px;
+          }
+          @media only screen and (max-width: 920px) {
+            margin: 0 auto;
+           }
+        
+        border-radius: 15px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        &-button {
+            @media only screen and (max-width: 1295px) {
+                margin-left: 30px;
+              }
+              @media only screen and (max-width: 1143px) {
+                font-size: 14px;
+              }
+            padding: 20px 13px;
+            background-color: $button-color;
+            color: #fff;
+            border-radius: 10px;
+            margin-left: 50px;
+            cursor: pointer;
+        }
+        &-number {
+            @media only screen and (max-width: 1295px) {
+                margin-left: 16px;
+              }
+              @media only screen and (max-width: 11430px) {
+                font-size: 15px;
+              }
+            font-size: 18px;
+            font-weight: 100;
+            user-select: none;
+        }
+        &-clicked {
+        box-shadow: 0px 0px 20px 0px rgba(35, 31, 32, 0.2);
+        padding: 10px;
+        width: 450px;
+        border-radius: 15px;
+        display: none;
+        justify-content: flex-end;
+        align-items: center;
+            & > .contacts-container-call-button {
+                padding: 10px 20px;
+                font-size: 30px;
+                font-weight: 100;
+            }
+        }
+    }
+    &-socials {
+        @media only screen and (max-width: 920px) {
+           display: none;
+          }
+        padding-left: 20px;
+        display: flex;
+        &-icons {
+            display: flex;
+            &>i:first-child {
+                margin-right: 10px;
+            }
+        }
+        & > div {
+            margin-left: 20px;
+            & >span {
+                font-weight: 100;
+                color: rgb(51, 51, 51);
+                font-size: 14px;
+            }
+
+        }  
+    }
+}

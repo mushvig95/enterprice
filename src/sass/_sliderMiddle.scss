@@ -1,0 +1,54 @@
+.slider-container-middle {
+    background-color: $background-gray;
+    padding-top: 110px;
+    padding-bottom: 130px;
+    display: flex;
+    &-item {
+        @media only screen and (max-width: 800px) {
+            margin-right: 20px;
+            margin-left: 20px;
+          }
+       @include shadowed;
+        width: 500px;
+        @media only screen and (max-width: 800px) {
+            padding: 50px 20px 60px 20px;
+          }
+        padding: 50px 70px 60px 30px;
+        margin-right: 20px;
+        overflow: hidden;
+        .slider-header {
+            display: flex;
+            justify-content: flex-start;
+            @media only screen and (max-width: 800px) {
+                flex-direction: column-reverse;
+                text-align: center;
+              }
+            & > p {
+               font-size: 25px;
+               font-weight: 300;
+               color: $primary-color;
+               @media only screen and (max-width: 800px) {
+                margin-right: 0px;
+                text-align: center;
+              }
+               margin-right: 10px;
+            }
+            & > img {
+                align-self: center;
+                @media only screen and (max-width: 800px) {
+                    padding-bottom: 50px;
+                  }
+            }
+        }
+        & > p {
+            @media only screen and (max-width: 800px) {
+                text-align: center;
+              }
+            font-size: 16px;
+            margin-top: 30px;
+            line-height: 20px;
+            color:$text-color;
+            font-weight: 100;
+        }
+    }
+}

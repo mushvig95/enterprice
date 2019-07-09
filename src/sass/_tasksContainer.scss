@@ -1,0 +1,38 @@
+.tasks-container {
+    @media only screen and (max-width: 800px) {
+        text-align: center;
+        padding-top: 30px;
+        background-color: #126696;
+        width: 100% !important;
+      }
+    @include centered;
+    margin-top: 130px;
+    padding-bottom: 100px;
+    & > h2 {
+        @media only screen and (max-width: 800px) {
+            color: #ffa365;
+          }
+        color: $primary-color;
+        font-weight: 500;
+    }
+    &-content {
+        @media only screen and (max-width: 800px) {
+            color: #fff;
+            padding: 0 15px 0 15px;
+          }
+        & > h3 {
+            padding-top: 30px;
+            font-weight: 300;
+        }
+        & > p {
+            @media only screen and (max-width: 800px) {
+                color: #fff;
+              }
+            padding-top: 15px;
+            font-size: 14px;
+            color: $text-color;
+            font-weight: 100;
+        }
+    }
+
+}

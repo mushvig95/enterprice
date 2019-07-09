@@ -1,0 +1,42 @@
+.partners-slide-container {
+  @media only screen and (max-width: 500px) {
+    display: none;
+  }
+  background-color: $background-gray;
+  padding-top: 75px;
+  padding-bottom: 130px;
+  &-inner {
+    @include centered;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media only screen and (max-width: 1300px) {
+      justify-content: space-around;
+    }
+    &-item {
+      @include shadowed;
+      @media only screen and (max-width: 1511px) {
+        width: 190px;
+        height: 190px;
+      }
+      @media only screen and (max-width: 1300px) {
+        width: 220px;
+        height: 220px;
+      }
+      width: 220px;
+      height: 220px;
+      position: relative;
+      margin-bottom: 25px;
+      &:nth-child(4n) {
+        margin-right: 0;
+      }
+      & > img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}

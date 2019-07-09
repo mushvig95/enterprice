@@ -1,0 +1,54 @@
+.slick-slide:focus {
+  outline: none;
+}
+.slick-list {
+  background-color: #fff;
+  border: none;
+}
+
+.slick-dots {
+  margin-bottom: 80px;
+  & > li {
+    & > button {
+      color: #1c3563;
+    }
+    & > button:before {
+      color: #1c3563;
+      font-size: 18px;
+    }
+    &.slick-active button:before {
+      color: #1c3563;
+    }
+  }
+}
+
+.industry-container-slide {
+  & .overlay {
+    position: absolute;
+    background-color: rgb(13, 72, 106);
+    opacity: 0.702;
+    z-index: 20;
+    transition: background-color 0.5s;
+  }
+  .slick-dots {
+    margin-bottom: 40px;
+  }
+  & .slick-current {
+    .overlay {
+      position: absolute;
+      background-color: #000;
+      opacity: 0.4;
+      z-index: 1;
+    }
+    img {
+      filter: blur(0);
+    }
+    button {
+      z-index: 2;
+      filter: blur(0);
+    }
+    span {
+      z-index: 2;
+    }
+  }
+}

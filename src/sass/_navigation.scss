@@ -1,0 +1,23 @@
+.navigation {
+    //display: none;
+    position: fixed;
+    top: -100%;
+    transition: top 1s;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 60px 0 150px 0;
+    & > ul > li {
+        margin-bottom: 45px;
+        color: #52565a;
+    }
+    & > span {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+}
+.nav-menu {
+    cursor: pointer;
+}
