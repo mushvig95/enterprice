@@ -6,7 +6,7 @@
     padding-top: 60px;
     display: flex;
     align-items: center;
-    &-call {  
+    &-call {
         box-shadow: 0px 0px 20px 0px rgba(35, 31, 32, 0.2);
         padding: 10px;
         @media only screen and (max-width: 938px) {
@@ -20,6 +20,7 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        width: 555px;
         &-button {
             @media only screen and (max-width: 1295px) {
                 margin-left: 30px;

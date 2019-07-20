@@ -6,12 +6,7 @@
 }
 
 @mixin centered {
-  @media only screen and (max-width: 1815px) {
-    width: 60%;
-  }
-  @media only screen and (max-width: 1283px) {
-    width: 70%;
-  }
+  width: 80%;
   @media only screen and (max-width: 1050px) {
     width: 80%;
   }
@@ -24,9 +19,11 @@
   @media only screen and (max-width: 800px) {
     width: 95%;
   }
-  width: 50%;
   margin: 0 auto;
-  overflow: hidden;
+  @media (min-width: 1200px) {
+    width: 1140px;
+  }
+
 }
 
 @mixin shadowed {
