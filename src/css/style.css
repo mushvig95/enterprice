@@ -237,7 +237,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 555px; }
+    width: 500px; }
     @media only screen and (max-width: 938px) {
       .contacts-container-call {
         width: 380px; } }
@@ -258,9 +258,13 @@
         .contacts-container-call-button {
           font-size: 14px; } }
     .contacts-container-call-number {
-      font-size: 18px;
+      width: 40%;
+      padding: 10px;
+      font-family: 'Gotham';
       font-weight: 100;
-      user-select: none; }
+      outline: none;
+      font-size: 20px !important;
+      border: none; }
       @media only screen and (max-width: 1295px) {
         .contacts-container-call-number {
           margin-left: 16px; } }
@@ -275,6 +279,8 @@
       display: none;
       justify-content: flex-end;
       align-items: center; }
+      .contacts-container-call-clicked > .contacts-container-call-text {
+        font-weight: 100; }
       .contacts-container-call-clicked > .contacts-container-call-button {
         padding: 10px 20px;
         font-size: 30px;
@@ -295,6 +301,14 @@
         font-weight: 100;
         color: #333333;
         font-size: 14px; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+::placeholder {
+  color: rgba(163, 163, 163, 0.5); }
 
 .image-slider-container {
   margin-top: 90px;
@@ -548,6 +562,7 @@
       width: 180% !important;
       margin-left: -40%; } }
   .features-icon-container > ul > li {
+    cursor: pointer;
     text-align: center;
     width: 125px; }
     @media only screen and (max-width: 800px) {
@@ -563,6 +578,13 @@
         .features-icon-container > ul > li > img {
           padding-top: 20px;
           padding-bottom: 5px; } }
+      .features-icon-container > ul > li > img:hover + span {
+        border-top: 1px solid #1c3563; }
+    .features-icon-container > ul > li > span {
+      width: 70%;
+      display: block;
+      margin: 0 auto;
+      border-top: 1px solid transparent; }
     .features-icon-container > ul > li > p {
       padding-top: 30px;
       font-size: 14px;
