@@ -1,10 +1,11 @@
 .features-nav-container {
-  margin-top: 130px;
+  background-image: linear-gradient(#F7F8FA, #F7F8FA);
+  padding-bottom: 75px; 
   @media only screen and (max-width: 800px) {
     display: none;
   }
-  //border: 1px solid red;
   & > ul {
+    @include centered;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -29,7 +30,6 @@
       width: 180% !important;
       margin-left: -40%;
     }
-    width: 100%;
     & > li {
       @media only screen and (max-width: 1371px) {
         font-size: 15px;
