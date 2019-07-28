@@ -166,7 +166,7 @@ function getSlides() {
     })
 
     for (let i = 1; i < slides.length + 1; i++) {
-      document.querySelector(`.nav${i}`).addEventListener('click', () => {
+      document.querySelector(`.nav${i}`).addEventListener('mouseover', () => {
         track.style.transform = `translateX(-${(i - 1) * 100}%)`;
       })
     }
