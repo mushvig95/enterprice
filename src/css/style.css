@@ -619,6 +619,7 @@ input[type=number]::-webkit-outer-spin-button {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    justify-content: space-between;
     height: 70px;
     box-shadow: 0px 0px 19px 1px rgba(18, 102, 150, 0.13);
     background-color: white;
@@ -640,7 +641,7 @@ input[type=number]::-webkit-outer-spin-button {
       .features-nav-container > ul {
         width: 1140px; } }
     .features-nav-container > ul > li {
-      width: 16.6%;
+      width: 100%;
       text-align: center;
       font-weight: 100;
       padding: 26px 0 26px 0;
