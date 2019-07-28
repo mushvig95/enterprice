@@ -14,22 +14,6 @@
     background-color: rgb(255, 255, 255);
     opacity: 0.902;
     border-radius: 15px;
-    @media only screen and (max-width: 1480px) {
-      width: 115% !important;
-      margin-left: -8%;
-    }
-    @media only screen and (max-width: 1214px) {
-      width: 132% !important;
-      margin-left: -15%;
-    }
-    @media only screen and (max-width: 1050px) {
-      width: 150% !important;
-      margin-left: -24%;
-    }
-    @media only screen and (max-width: 885px) {
-      width: 180% !important;
-      margin-left: -40%;
-    }
     & > li {
       @media only screen and (max-width: 1371px) {
         font-size: 15px;

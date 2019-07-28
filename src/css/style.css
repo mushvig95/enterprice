@@ -639,22 +639,6 @@ input[type=number]::-webkit-outer-spin-button {
     @media (min-width: 1200px) {
       .features-nav-container > ul {
         width: 1140px; } }
-    @media only screen and (max-width: 1480px) {
-      .features-nav-container > ul {
-        width: 115% !important;
-        margin-left: -8%; } }
-    @media only screen and (max-width: 1214px) {
-      .features-nav-container > ul {
-        width: 132% !important;
-        margin-left: -15%; } }
-    @media only screen and (max-width: 1050px) {
-      .features-nav-container > ul {
-        width: 150% !important;
-        margin-left: -24%; } }
-    @media only screen and (max-width: 885px) {
-      .features-nav-container > ul {
-        width: 180% !important;
-        margin-left: -40%; } }
     .features-nav-container > ul > li {
       width: 16.6%;
       text-align: center;
