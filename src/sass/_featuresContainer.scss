@@ -9,8 +9,8 @@
 }
 
 .background-container {
-  @media only screen and (max-width: 1050px) {
-    width: 115%;
+  @media only screen and (min-width: 1622px) {
+    width: 100%;
     background-position-x: -300px;
   }
   @media only screen and (max-width: 1050px) {
@@ -19,7 +19,7 @@
   }
   @media only screen and (max-width: 800px) {
     height: 1250px;
-    background-image: url('../img/polymini3.png');
+    background-image: url('../img/shapes/polymini3.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0px 10px;

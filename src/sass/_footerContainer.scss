@@ -5,15 +5,31 @@ footer {
     @include centered;
     display: flex;
     justify-content: space-between;
-    & > img {
-        @media only screen and (max-width: 800px) {
-            margin: 0 auto;
-            padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    &-mobile {
+        @media only screen and (min-width: 800px) {
+            display: none;
         }
-        margin-top: 50px;
-        margin-bottom: 30px;
-        width: 200px;
+        @media only screen and (max-width: 800px) {
+            display: block;
+            margin: 0 auto;
+        }
     }
+    &-logos {
+        @media only screen and (max-width: 801px) {
+            display: none;
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        & img {
+            &:last-child {
+                margin-top: 40px;
+            }
+        }
+    }
+    
     &-list {
         @media only screen and (max-width: 800px) {
             display: none;
