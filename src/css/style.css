@@ -1287,7 +1287,7 @@ input[type=number]::-webkit-outer-spin-button {
     padding-bottom: 80px; }
     .industry-container-slide-item {
       height: 300px;
-      width: 500px;
+      width: 470px;
       border-radius: 15px;
       margin-right: 20px;
       position: relative; }
@@ -1444,20 +1444,20 @@ footer {
 .industry-container-slide .slick-dots {
   margin-bottom: 40px; }
 
-.industry-container-slide .slick-current .overlay {
+.industry-container-slide .slick-active .overlay {
   position: absolute;
   background-color: #000;
   opacity: 0.4;
   z-index: 1; }
 
-.industry-container-slide .slick-current img {
+.industry-container-slide .slick-active img {
   filter: blur(0); }
 
-.industry-container-slide .slick-current button {
+.industry-container-slide .slick-active button {
   z-index: 2;
   filter: blur(0); }
 
-.industry-container-slide .slick-current span {
+.industry-container-slide .slick-active span {
   z-index: 2; }
 
 .navigation {
