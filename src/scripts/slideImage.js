@@ -103,6 +103,16 @@ function resize() {
 resize();
 $(window).on('resize', resize);
 
+// Slide for partners 
+function slickPartners() {
+  $(".general").slick({
+    dots: true,
+    arrows: false,
+    infinite: false,
+  });
+}
+slickPartners();
+
 // slide for benefits
 function slickBenefits() {
   if ($(window).width() < 800) {

@@ -41,7 +41,6 @@ body, html {
 .centralized {
   @media only screen and (max-width: 800px) {
     width: 100% !important;
-    border: 1px solid red;
     padding-bottom: 30px;
   }
   @include centered;

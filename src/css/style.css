@@ -9,7 +9,6 @@
   @media only screen and (max-width: 800px) {
     .centralized {
       width: 100% !important;
-      border: 1px solid red;
       padding-bottom: 30px; } }
   @media only screen and (max-width: 1050px) {
     .centralized {
@@ -670,7 +669,6 @@ input[type=number]::-webkit-outer-spin-button {
   height: 400px; }
   @media only screen and (max-width: 800px) {
     .features-slide-img-container {
-      margin-top: 100px;
       padding-bottom: 30px;
       height: 100%; } }
   .features-slide-img-container-content {
@@ -943,7 +941,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-weight: 300; }
   .partners-container > p {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 100; }
 
 .benefits-container-items .slick-dots {
@@ -953,57 +951,63 @@ input[type=number]::-webkit-outer-spin-button {
   background-color: #fafafa;
   padding-top: 75px;
   padding-bottom: 130px; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 800px) {
     .partners-slide-container {
       display: none; } }
   .partners-slide-container-inner {
-    width: 80%;
-    margin: 0 auto;
-    background-color: transparent;
-    display: flex;
+    background-color: transparent !important;
+    display: flex !important;
     justify-content: space-between;
     flex-wrap: wrap; }
-    @media only screen and (max-width: 1050px) {
-      .partners-slide-container-inner {
-        width: 80%; } }
-    @media only screen and (max-width: 920px) {
-      .partners-slide-container-inner {
-        width: 85%; } }
-    @media only screen and (max-width: 885px) {
-      .partners-slide-container-inner {
-        width: 88%; } }
-    @media only screen and (max-width: 800px) {
-      .partners-slide-container-inner {
-        width: 95%; } }
-    @media (min-width: 1200px) {
-      .partners-slide-container-inner {
-        width: 1140px; } }
-    @media only screen and (max-width: 1300px) {
-      .partners-slide-container-inner {
-        justify-content: space-around; } }
     .partners-slide-container-inner-item {
       border-radius: 15px;
       background-color: white;
       box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.1);
-      width: 220px;
+      width: 20.5%;
       height: 220px;
       position: relative;
       margin-bottom: 25px; }
-      @media only screen and (max-width: 1511px) {
-        .partners-slide-container-inner-item {
-          width: 190px;
-          height: 190px; } }
-      @media only screen and (max-width: 1300px) {
-        .partners-slide-container-inner-item {
-          width: 220px;
-          height: 220px; } }
       .partners-slide-container-inner-item:nth-child(4n) {
-        margin-right: 0; }
+        margin-right: 30px; }
+      .partners-slide-container-inner-item:first-child {
+        margin-left: 30px; }
+      .partners-slide-container-inner-item:nth-child(5) {
+        margin-left: 30px; }
       .partners-slide-container-inner-item > img {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%); }
+        @media only screen and (max-width: 1200px) {
+          .partners-slide-container-inner-item > img {
+            width: 100px;
+            height: auto; } }
+
+.general {
+  width: 80%;
+  margin: 0 auto; }
+  @media only screen and (max-width: 1050px) {
+    .general {
+      width: 80%; } }
+  @media only screen and (max-width: 920px) {
+    .general {
+      width: 85%; } }
+  @media only screen and (max-width: 885px) {
+    .general {
+      width: 88%; } }
+  @media only screen and (max-width: 800px) {
+    .general {
+      width: 95%; } }
+  @media (min-width: 1200px) {
+    .general {
+      width: 1140px; } }
+
+.general .slick-list {
+  background-color: #fafafa;
+  padding-top: 30px; }
+
+.general .slick-dots {
+  margin: 0; }
 
 .modules-container {
   width: 80%;
@@ -1013,7 +1017,7 @@ input[type=number]::-webkit-outer-spin-button {
   box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.1);
   margin-top: 85px;
   padding-top: 40px; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 772px) {
     .modules-container {
       display: none; } }
   @media only screen and (max-width: 1050px) {
