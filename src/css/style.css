@@ -123,23 +123,21 @@
     .intro-container {
       width: 1140px; } }
   .intro-container-bold {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 500;
     color: #126696; }
-    @media only screen and (max-width: 1513px) {
-      .intro-container-bold {
-        font-size: 35px; } }
     @media only screen and (max-width: 800px) {
       .intro-container-bold {
         padding: 0 10px; } }
   .intro-container-regular {
     color: #4d4d4d;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 36px;
     line-height: 30px; }
   .intro-container-light {
     color: gray;
     font-weight: 100;
+    font-size: 18px;
     margin-top: 30px; }
     @media only screen and (max-width: 800px) {
       .intro-container-light {
@@ -236,20 +234,28 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 500px; }
+    width: 555px; }
     @media only screen and (max-width: 938px) {
       .contacts-container-call {
         width: 380px; } }
     @media only screen and (max-width: 920px) {
       .contacts-container-call {
         margin: 0 auto; } }
+    .contacts-container-call-text {
+      display: none;
+      font-size: 18px;
+      margin: 0 auto;
+      font-weight: 100; }
     .contacts-container-call-button {
-      padding: 20px 13px;
+      padding: 20px 0;
+      text-align: center;
       background-color: #f7941d;
       color: #fff;
       border-radius: 10px;
       margin-left: 50px;
-      cursor: pointer; }
+      cursor: pointer;
+      width: 190px;
+      transition: width 0.5s ease; }
       @media only screen and (max-width: 1295px) {
         .contacts-container-call-button {
           margin-left: 30px; } }
@@ -270,20 +276,6 @@
       @media only screen and (max-width: 11430px) {
         .contacts-container-call-number {
           font-size: 15px; } }
-    .contacts-container-call-clicked {
-      box-shadow: 0px 0px 20px 0px rgba(35, 31, 32, 0.2);
-      padding: 10px;
-      width: 450px;
-      border-radius: 15px;
-      display: none;
-      justify-content: flex-end;
-      align-items: center; }
-      .contacts-container-call-clicked > .contacts-container-call-text {
-        font-weight: 100; }
-      .contacts-container-call-clicked > .contacts-container-call-button {
-        padding: 10px 20px;
-        font-size: 30px;
-        font-weight: 100; }
   .contacts-container-socials {
     padding-left: 20px;
     display: flex; }
@@ -470,63 +462,29 @@ input[type=number]::-webkit-outer-spin-button {
           font-size: 15px;
           text-align: center; } }
 
-.hiddenOverflow {
-  overflow: hidden;
-  margin-top: 40px;
-  width: 100%;
-  position: relative; }
-  @media only screen and (max-width: 800px) {
-    .hiddenOverflow {
-      background: none; } }
-
-.background-container {
-  height: 650px;
-  width: 125%;
-  background-image: url("../img/polygon2.png");
-  background-repeat: no-repeat;
-  background-size: 120%;
-  background-position-x: -370px;
-  z-index: -10; }
-  @media only screen and (min-width: 1622px) {
-    .background-container {
-      width: 100%;
-      background-position-x: -300px; } }
-  @media only screen and (max-width: 1050px) {
-    .background-container {
-      width: 115%;
-      background-position-x: -300px; } }
-  @media only screen and (max-width: 800px) {
-    .background-container {
-      height: 1250px;
-      background-image: url("../img/shapes/polymini3.png");
-      background-repeat: no-repeat;
-      background-size: 100%;
-      background-position: 0px 10px;
-      overflow: hidden; } }
-
 .features-container {
-  position: absolute;
-  top: 15%;
-  left: 25%;
-  z-index: 999;
-  width: 50%; }
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 140px; }
+  @media only screen and (max-width: 1050px) {
+    .features-container {
+      width: 80%; } }
+  @media only screen and (max-width: 920px) {
+    .features-container {
+      width: 85%; } }
+  @media only screen and (max-width: 885px) {
+    .features-container {
+      width: 88%; } }
   @media only screen and (max-width: 800px) {
     .features-container {
-      top: 0; } }
+      width: 95%; } }
+  @media (min-width: 1200px) {
+    .features-container {
+      width: 1140px; } }
   .features-container-title {
-    padding-left: 10%;
     display: flex;
     color: #126696;
     align-items: flex-end; }
-    @media only screen and (max-width: 1115px) {
-      .features-container-title {
-        padding-left: 0; } }
-    @media only screen and (max-width: 800px) {
-      .features-container-title {
-        flex-direction: column;
-        padding-left: 20px !important;
-        align-items: flex-start;
-        padding-top: 50px; } }
     .features-container-title-1 > p {
       font-weight: 500;
       font-size: 170px;
@@ -546,35 +504,28 @@ input[type=number]::-webkit-outer-spin-button {
       font-weight: 300;
       padding-left: 20px; }
 
+.reasonswhy {
+  border: 1px solid transparent;
+  margin-top: 20px;
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/shapes/duga.svg");
+  background-repeat: no-repeat;
+  background-size: 180%;
+  background-position-x: 40%; }
+
 .features-icon-container > ul {
   padding-top: 80px;
   display: flex;
   justify-content: space-around;
-  list-style: none;
-  width: 100%; }
+  list-style: none; }
   @media only screen and (max-width: 800px) {
     .features-icon-container > ul {
       flex-direction: column; } }
-  @media only screen and (max-width: 1435px) {
-    .features-icon-container > ul {
-      width: 120%;
-      margin-left: -10%; } }
-  @media only screen and (max-width: 1214px) {
-    .features-icon-container > ul {
-      width: 140%;
-      margin-left: -20%; } }
-  @media only screen and (max-width: 1050px) {
-    .features-icon-container > ul {
-      width: 160% !important;
-      margin-left: -28%; } }
-  @media only screen and (max-width: 885px) {
-    .features-icon-container > ul {
-      width: 180% !important;
-      margin-left: -40%; } }
   .features-icon-container > ul > li {
     cursor: pointer;
     text-align: center;
-    width: 125px; }
+    width: 150px; }
     @media only screen and (max-width: 800px) {
       .features-icon-container > ul > li {
         width: 100%;
@@ -599,7 +550,7 @@ input[type=number]::-webkit-outer-spin-button {
     .features-icon-container > ul > li > p {
       padding-top: 30px;
       font-size: 14px;
-      font-weight: 100; }
+      font-weight: 300; }
       @media only screen and (max-width: 800px) {
         .features-icon-container > ul > li > p {
           padding-top: 5px;

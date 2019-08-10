@@ -20,7 +20,14 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        width: 500px;
+        width: 555px;
+        &-text {
+            display: none;
+            font-size: 18px;
+            margin: 0 auto;
+            font-weight: 100;
+
+        }
         &-button {
             @media only screen and (max-width: 1295px) {
                 margin-left: 30px;
@@ -28,12 +35,16 @@
               @media only screen and (max-width: 1143px) {
                 font-size: 14px;
               }
-            padding: 20px 13px;
+            padding: 20px 0;
+            text-align: center;
             background-color: $button-color;
             color: #fff;
             border-radius: 10px;
             margin-left: 50px;
             cursor: pointer;
+            width: 190px;
+            transition: width 0.5s ease;
+            
         }
         &-number {
             @media only screen and (max-width: 1295px) {
@@ -50,24 +61,25 @@
             font-size: 20px!important;
             border: none;
         }
-        &-clicked {
-        box-shadow: 0px 0px 20px 0px rgba(35, 31, 32, 0.2);
-        padding: 10px;
-        width: 450px;
-        border-radius: 15px;
-        display: none;
-        justify-content: flex-end;
-        align-items: center;
-            & > .contacts-container-call-text {
-                font-weight: 100;
-            }
-            & > .contacts-container-call-button {
-                padding: 10px 20px;
-                font-size: 30px;
-                font-weight: 100;
-            }
-        }
+        // &-clicked {
+        // box-shadow: 0px 0px 20px 0px rgba(35, 31, 32, 0.2);
+        // padding: 10px;
+        // width: 555px;
+        // border-radius: 15px;
+        // display: none;
+        // justify-content: flex-end;
+        // align-items: center;
+        //     & > .contacts-container-call-text {
+        //         font-weight: 100;
+        //     }
+        //     & > .contacts-container-call-button {
+        //         padding: 10px 20px;
+        //         font-size: 30px;
+        //         font-weight: 100;
+        //     }
+        // }
     }
+    
     &-socials {
         @media only screen and (max-width: 920px) {
            display: none;

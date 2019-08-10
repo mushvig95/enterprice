@@ -16,20 +16,17 @@
   margin-top: 80px;
   text-align: center;
   &-bold {
-    @media only screen and (max-width: 1513px) {
-      font-size: 35px;
-    }
     @media only screen and (max-width: 800px) {
       padding: 0 10px;
     }
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 500;
     color: $primary-color;
   }
   &-regular {
     color: rgb(77, 77, 77);
     font-weight: 300;
-    font-size: 25px;
+    font-size: 36px;
     line-height: 30px;
   }
   &-light {
@@ -38,6 +35,7 @@
      }
     color: $text-color;
     font-weight: 100;
+    font-size: 18px;
     margin-top: 30px;
   }
 }

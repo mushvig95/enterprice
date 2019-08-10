@@ -5,23 +5,31 @@ const slideContainerImages = document.querySelectorAll(
 const prevBtn = document.querySelector(".image-slider-container-arrows-left");
 const nextBtn = document.querySelector(".image-slider-container-arrows-right");
 /******************************************************************************** */
-const orderCallContainer = document.querySelector(".contacts-container-call");
-const callClickedContainer = document.querySelector(
-  ".contacts-container-call-clicked"
-);
+const orderInput = document.querySelector(".contacts-container-call-number");
+const orderClickedText = document.querySelector(".contacts-container-call-text");
 const ordeerCallBtn = document.querySelector(".contacts-container-call-button");
-const closeOrderBtn = document.querySelector(
-  ".contacts-container-call-button-closed"
-);
+let isClicked = false;
 
 ordeerCallBtn.addEventListener("click", () => {
-  orderCallContainer.style.display = "none";
-  callClickedContainer.style.display = "flex";
+  isClicked = !isClicked;
+  if (isClicked) {
+    orderInput.style.display = "none";
+    orderClickedText.style.display = "block";
+    ordeerCallBtn.innerHTML = 'x'
+    ordeerCallBtn.style.width = '60px'
+
+
+  } else {
+    orderInput.style.display = "block";
+    orderClickedText.style.display = "none";
+    ordeerCallBtn.style.width = '190px'
+    setTimeout(() => {
+      ordeerCallBtn.innerHTML = 'ЗАКАЗАТЬ ЗВОНОК'
+    }, 260)
+
+  }
 });
-closeOrderBtn.addEventListener("click", () => {
-  orderCallContainer.style.display = "flex";
-  callClickedContainer.style.display = "none";
-});
+
 
 //  First slider
 let counter = 0;
