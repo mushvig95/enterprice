@@ -196,12 +196,16 @@ document.querySelector('.feature-slider-container-arrows-left').addEventListener
 });
 
 // Last Slider
+var doubled = $('.industry-container-slide-item');
+console.log(doubled);
+if ($(window).width() < 800) {
+  doubled.unwrap();
+}
+
 $(".industry-container-slide").slick({
   dots: true,
   infinite: true,
   speed: 300,
-  slidesToShow: 2,
-  slidesToScroll: 3,
   centerMode: true,
   variableWidth: true,
   arrows: false,
@@ -210,8 +214,8 @@ $(".industry-container-slide").slick({
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
-      variableWidth: false,
-      centerMode: false
+      variableWidth: true,
+      centerMode: true
     }
   }]
 });
