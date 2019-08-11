@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1544.213" height="303.775" viewBox="0 0 1544.213 303.775">
+  <defs>
+    <filter id="Ellipse_100" x="1042" y="25.77" width="40.213" height="40.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_116" x="1001" y="25.77" width="40.213" height="40.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_101" x="1088" y="25.77" width="40.213" height="40.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_102" x="1134" y="25.77" width="40.213" height="40.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_103" x="1181" y="25.77" width="40.213" height="40.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_113" x="1319" y="25.77" width="40.213" height="40.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_104" x="1227" y="25.77" width="40.213" height="40.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_112" x="1365" y="25.77" width="40.213" height="40.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_114" x="1458" y="25.77" width="40.213" height="40.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_105" x="1273" y="25.77" width="40.213" height="40.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_111" x="1411" y="25.77" width="40.213" height="40.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-11"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_115" x="1504" y="25.77" width="40.213" height="40.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-12"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_109" x="421" y="120.729" width="50.451" height="50.451" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-13"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_95" x="159.9" y="127.698" width="36.511" height="36.511" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-14"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_44" x="666" y="96.428" width="98.795" height="98.795" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-15"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_176" data-name="Group 176" transform="translate(-231 -67.225)">
+    <path id="Path_123" data-name="Path 123" d="M286.869,626.887V474.74c0-38.326,30.043-69.395,67.1-69.395s67.1,31.069,67.1,69.395l-.06,82.753c0,38.326,30.044,69.395,67.1,69.395s67.1-31.069,67.1-69.395V474.74c0-38.326,30.043-69.395,67.1-69.395s67.1,31.069,67.1,69.395l-.06,82.753c0,38.326,25.008,69.395,71.981,69.395s62.227-31.069,62.227-69.395V474.74c0-38.326,30.311-69.395,75.674-69.395h241.631" transform="translate(122.064 -294.935)" fill="none" stroke="#e1e1e1" stroke-miterlimit="10" stroke-width="10"/>
+    <text id="Planning" transform="translate(435 362.697)" fill="#707070" font-size="16" font-family="Gotham"><tspan x="-34.28" y="0">Planning</tspan></text>
+    <text id="Design" transform="translate(608 363.143)" fill="#707070" font-size="16" font-family="Gotham"><tspan x="-27.32" y="0">Design</tspan></text>
+    <text id="Testing" transform="translate(745 82.624)" fill="#707070" font-size="16" font-family="Gotham"><tspan x="-28.36" y="0">Testing</tspan></text>
+    <text id="Motivation_model" data-name="Motivation model" transform="translate(476.632 82.624)" fill="#707070" font-size="16" font-family="Gotham"><tspan x="-69.272" y="0">Motivation model</tspan></text>
+    <text id="Prepearing_for_implementation" data-name="Prepearing for implementation" transform="translate(884 363.143)" fill="#707070" font-size="16" font-family="Gotham"><tspan x="-121.816" y="0">Prepearing for implementation</tspan></text>
+    <g id="Ellipse_42" data-name="Ellipse 42" transform="translate(399.9 322.616)" fill="#b9b9b9" stroke="#fff" stroke-width="3">
+      <circle cx="9.255" cy="9.255" r="9.255" stroke="none"/>
+      <circle cx="9.255" cy="9.255" r="7.755" fill="none"/>
+    </g>
+    <g id="Ellipse_96" data-name="Ellipse 96" transform="translate(734 98.994)" fill="#b9b9b9" stroke="#fff" stroke-width="3">
+      <circle cx="11.107" cy="11.107" r="11.107" stroke="none"/>
+      <circle cx="11.107" cy="11.107" r="9.607" fill="none"/>
+    </g>
+    <g id="Ellipse_117" data-name="Ellipse 117" transform="translate(465.649 98.994)" fill="#b9b9b9" stroke="#fff" stroke-width="3">
+      <circle cx="11.107" cy="11.107" r="11.107" stroke="none"/>
+      <circle cx="11.107" cy="11.107" r="9.607" fill="none"/>
+    </g>
+    <g id="Ellipse_110" data-name="Ellipse 110" transform="translate(596.025 320.482)" fill="#b9b9b9" stroke="#fff" stroke-width="3">
+      <circle cx="11.107" cy="11.107" r="11.107" stroke="none"/>
+      <circle cx="11.107" cy="11.107" r="9.607" fill="none"/>
+    </g>
+    <g id="Ellipse_106" data-name="Ellipse 106" transform="translate(872.498 320.482)" fill="#9b8484" stroke="#fff" stroke-width="3">
+      <circle cx="11.107" cy="11.107" r="11.107" stroke="none"/>
+      <circle cx="11.107" cy="11.107" r="9.607" fill="none"/>
+    </g>
+    <g id="Ellipse_107" data-name="Ellipse 107" transform="translate(1027.669 98.994)" fill="#805b5b" stroke="#fff" stroke-width="3">
+      <circle cx="11.107" cy="11.107" r="11.107" stroke="none"/>
+      <circle cx="11.107" cy="11.107" r="9.607" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_100)">
+      <circle id="Ellipse_100-2" data-name="Ellipse 100" cx="11.107" cy="11.107" r="11.107" transform="translate(1051 31.77)" fill="#4d0909"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_116)">
+      <circle id="Ellipse_116-2" data-name="Ellipse 116" cx="11.107" cy="11.107" r="11.107" transform="translate(1010 31.77)" fill="#4d0909"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_101)">
+      <circle id="Ellipse_101-2" data-name="Ellipse 101" cx="11.107" cy="11.107" r="11.107" transform="translate(1097 31.77)" fill="#4d0909"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_102)">
+      <circle id="Ellipse_102-2" data-name="Ellipse 102" cx="11.107" cy="11.107" r="11.107" transform="translate(1143 31.77)" fill="#4d0909"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_103)">
+      <circle id="Ellipse_103-2" data-name="Ellipse 103" cx="11.107" cy="11.107" r="11.107" transform="translate(1190 31.77)" fill="#4d0909" opacity="0.8"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_113)">
+      <circle id="Ellipse_113-2" data-name="Ellipse 113" cx="11.107" cy="11.107" r="11.107" transform="translate(1328 31.77)" fill="#4d0909" opacity="0.5"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_104)">
+      <circle id="Ellipse_104-2" data-name="Ellipse 104" cx="11.107" cy="11.107" r="11.107" transform="translate(1236 31.77)" fill="#4d0909" opacity="0.7"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_112)">
+      <circle id="Ellipse_112-2" data-name="Ellipse 112" cx="11.107" cy="11.107" r="11.107" transform="translate(1374 31.77)" fill="#4d0909" opacity="0.4"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_114)">
+      <circle id="Ellipse_114-2" data-name="Ellipse 114" cx="11.107" cy="11.107" r="11.107" transform="translate(1467 31.77)" fill="#4d0909" opacity="0.2"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_105)">
+      <circle id="Ellipse_105-2" data-name="Ellipse 105" cx="11.107" cy="11.107" r="11.107" transform="translate(1282 31.77)" fill="#4d0909" opacity="0.6"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_111)">
+      <circle id="Ellipse_111-2" data-name="Ellipse 111" cx="11.107" cy="11.107" r="11.107" transform="translate(1420 31.77)" fill="#4d0909" opacity="0.3"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_115)">
+      <circle id="Ellipse_115-2" data-name="Ellipse 115" cx="11.107" cy="11.107" r="11.107" transform="translate(1513 31.77)" fill="#4d0909" opacity="0.1"/>
+    </g>
+    <text id="Analysis" transform="translate(1038.89 82.225)" fill="#707070" font-size="16" font-family="Gotham"><tspan x="-32.624" y="0">Analysis</tspan></text>
+    <text id="A_lot_of_headache_...._e.t.c" data-name="A lot of headache .... e.t.c" transform="translate(1661.647 153.826)" fill="#4d0909" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="-103.032" y="0">A lot of headache .... e.t.c</tspan></text>
+    <text id="Creating_customer_base" data-name="Creating
+customer
+base" transform="translate(696.303 241)" fill="#126696" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">Creating</tspan><tspan x="0" y="19">customer</tspan><tspan x="0" y="38">base</tspan></text>
+    <path id="Path_64" data-name="Path 64" d="M0,.089H225.219" transform="translate(428.804 210.031)" fill="none" stroke="#77cff3" stroke-width="7" stroke-dasharray="20 6"/>
+    <path id="Path_124" data-name="Path 124" d="M0,0H202.537" transform="translate(699.951 210.119)" fill="none" stroke="#3dce00" stroke-width="7" stroke-dasharray="20 6"/>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_109)">
+      <circle id="Ellipse_109-2" data-name="Ellipse 109" cx="16.225" cy="16.225" r="16.225" transform="translate(430 126.73)" fill="#25aae1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 231, 67.22)" filter="url(#Ellipse_95)">
+      <g id="Ellipse_95-2" data-name="Ellipse 95" transform="translate(168.9 133.7)" fill="#fff" stroke="#77cff3" stroke-width="2">
+        <circle cx="9.255" cy="9.255" r="9.255" stroke="none"/>
+        <circle cx="9.255" cy="9.255" r="8.255" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_174" data-name="Group 174" transform="translate(-30.418 -1652)">
+      <g id="Group_172" data-name="Group 172" transform="translate(936.418 1821.653)">
+        <g transform="matrix(1, 0, 0, 1, -675, -102.43)" filter="url(#Ellipse_44)">
+          <g id="Ellipse_44-2" data-name="Ellipse 44" transform="translate(675 102.43)" fill="#fff" stroke="#adc5a2" stroke-width="3">
+            <circle cx="40.397" cy="40.397" r="40.397" stroke="none"/>
+            <circle cx="40.397" cy="40.397" r="38.897" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_156" data-name="Group 156" transform="translate(951.358 1835.236)">
+        <path id="Path_105" data-name="Path 105" d="M213.133,138.265A5.133,5.133,0,1,0,208,133.133,5.133,5.133,0,0,0,213.133,138.265Zm0-8.554a3.422,3.422,0,1,1-3.422,3.422A3.422,3.422,0,0,1,213.133,129.711Z" transform="translate(-187.47 -116.024)"/>
+        <path id="Path_106" data-name="Path 106" d="M144.179,56.2a.867.867,0,0,0,.27-.044.856.856,0,0,0,.577-.69l.646-4.52a.856.856,0,0,1,.846-.734h2.606l-.65,3.251a.856.856,0,0,0,.838,1.027h6.843a.855.855,0,0,0,.838-1.027l-.65-3.251h2.606a.855.855,0,0,1,.846.735l.646,4.519a.856.856,0,0,0,.577.69.867.867,0,0,0,.27.044.855.855,0,0,0,.6-.251,10.922,10.922,0,0,0-.88-16.246l.009-.025a20.94,20.94,0,0,0-7.79-23.524.855.855,0,0,0-.994,0,20.94,20.94,0,0,0-7.79,23.524l.009.025a10.922,10.922,0,0,0-.88,16.246A.855.855,0,0,0,144.179,56.2Zm10.932-3.422h-4.756l.513-2.566h3.73Zm8.244-5.328a9.193,9.193,0,0,1-1.5,5.849l-.37-2.595a2.578,2.578,0,0,0-2.54-2.2h-.765l2.265-7.047A9.224,9.224,0,0,1,163.355,47.455ZM152.733,17.918a19.3,19.3,0,0,1,5.057,5.78H147.676A19.3,19.3,0,0,1,152.733,17.918Zm-5.918,7.491h11.836a19.235,19.235,0,0,1,.74,13.749l-.188.586h0l-2.816,8.761H149.08l-2.816-8.761h0l-.188-.586A19.235,19.235,0,0,1,146.816,25.409Zm-4.7,22.046a9.224,9.224,0,0,1,2.908-6l2.263,7.047h-.765a2.578,2.578,0,0,0-2.54,2.2l-.37,2.595a9.193,9.193,0,0,1-1.5-5.849Z" transform="translate(-127.071 -15.999)"/>
+        <path id="Path_107" data-name="Path 107" d="M22.843,360.253h1.711a8.5,8.5,0,0,0-1.8-5.23,5.149,5.149,0,0,1,2.127-1.955.033.033,0,0,0,.027-.009,5.075,5.075,0,0,1,2.21-.5,5.144,5.144,0,0,1,4.17,2.166,6.389,6.389,0,0,0-.748,2.967h1.711a4.629,4.629,0,0,1,.713-2.471h-.005c.012-.016.028-.028.04-.045a4.263,4.263,0,0,1,5.24-1.5v2.241h1.711v-6.843H38.241v2.789a5.931,5.931,0,0,0-5.885,1.439,6.865,6.865,0,0,0-5.235-2.448,6.737,6.737,0,0,0-1.842.257,8.511,8.511,0,0,0-8.423-7.1H16v1.711h.855a6.8,6.8,0,0,1,6.79,6.109,6.857,6.857,0,0,0-2.114,1.919A8.512,8.512,0,0,0,16,351.7v1.711A6.851,6.851,0,0,1,22.843,360.253Z" transform="translate(-16 -308.927)"/>
+        <path id="Path_108" data-name="Path 108" d="M286.673,351.1a6.737,6.737,0,0,0-1.842-.257,6.865,6.865,0,0,0-5.235,2.446,5.931,5.931,0,0,0-5.885-1.439v-2.789H272V355.9h1.711v-2.239a4.263,4.263,0,0,1,5.24,1.5c.012.017.028.029.04.045h-.005a4.629,4.629,0,0,1,.713,2.472h1.711a6.39,6.39,0,0,0-.749-2.967,5.144,5.144,0,0,1,4.17-2.166,5.076,5.076,0,0,1,2.21.506c.009,0,.018.005.027.009a5.15,5.15,0,0,1,2.131,1.954,8.5,8.5,0,0,0-1.8,5.23h1.711a6.851,6.851,0,0,1,6.843-6.843V351.7a8.513,8.513,0,0,0-5.531,2.04,6.857,6.857,0,0,0-2.114-1.919,6.8,6.8,0,0,1,6.79-6.109h.855V344H295.1A8.511,8.511,0,0,0,286.673,351.1Z" transform="translate(-244.626 -308.927)"/>
+        <rect id="Rectangle_843" data-name="Rectangle 843" width="1.711" height="1.711" transform="translate(21.386 24.808)"/>
+        <rect id="Rectangle_844" data-name="Rectangle 844" width="1.711" height="1.711" transform="translate(24.807 24.808)"/>
+        <rect id="Rectangle_845" data-name="Rectangle 845" width="1.711" height="1.711" transform="translate(28.229 24.808)"/>
+        <rect id="Rectangle_846" data-name="Rectangle 846" width="1.711" height="1.711" transform="translate(9.41 45.338)"/>
+        <rect id="Rectangle_847" data-name="Rectangle 847" width="1.711" height="1.711" transform="translate(0 31.651)"/>
+        <rect id="Rectangle_848" data-name="Rectangle 848" width="1.711" height="1.711" transform="translate(47.904 39.35)"/>
+        <rect id="Rectangle_849" data-name="Rectangle 849" width="1.711" height="1.711" transform="translate(41.061 35.928)"/>
+        <rect id="Rectangle_850" data-name="Rectangle 850" width="1.711" height="1.711" transform="translate(31.651 49.615)"/>
+        <rect id="Rectangle_851" data-name="Rectangle 851" width="1.711" height="1.711" transform="translate(49.615 29.94)"/>
+      </g>
+    </g>
+    <text id="LAUNCH" transform="translate(1009 216.229)" fill="#43b900" font-size="18" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">LAUNCH</tspan></text>
+    <text id="_10_minute_with_us" data-name="10 minute
+with us" transform="translate(386 179)" fill="#25aae1" font-size="30" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-142.08" y="0">10 minute</tspan><tspan x="-105.99" y="36">with us</tspan></text>
+    <text id="_1_-_2_years_alone" data-name="1 - 2  years
+alone" transform="translate(386 328)" fill="#bebebe" font-size="30" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-154.38" y="0" xml:space="preserve">1 - 2  years</tspan><tspan x="-79.8" y="36">alone</tspan></text>
+    <text id="Choosing_a_loyalty_program" data-name="Choosing
+a loyalty
+program" transform="translate(427.804 241)" fill="#126696" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">Choosing</tspan><tspan x="0" y="19">a loyalty</tspan><tspan x="0" y="38">program</tspan></text>
+  </g>
+</svg>

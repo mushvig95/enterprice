@@ -1,46 +1,8 @@
-// .hiddenOverflow {
-//  border: 1px solid green;
-//   overflow: hidden;
-//   margin-top: 40px;
-//   width: 100%;
-//   position: relative;
-//   @media only screen and (max-width: 800px) {
-//     background: none;
-//   }
-// }
-
-// .background-container {
-//   border: 1px solid blue;
-//   @media only screen and (min-width: 1622px) {
-//     width: 100%;
-//     background-position-x: -300px;
-//   }
-//   @media only screen and (max-width: 1050px) {
-//     width: 115%;
-//     background-position-x: -300px;
-//   }
-//   @media only screen and (max-width: 800px) {
-//     height: 1250px;
-//     background-image: url('../img/shapes/polymini3.png');
-//     background-repeat: no-repeat;
-//     background-size: 100%;
-//     background-position: 0px 10px;
-//     overflow: hidden;
-//   }
-//   height: 650px;
-//   width: 125%;
-//   background-image: url("../img/shapes/polygon2.png");
-//   background-repeat: no-repeat;
-//   background-size: 120%;
-//   background-position-x: -370px;
-//   z-index: -10;
-// }
-
 .features-container {
-  //border: 1px solid red;
   @include centered;
   margin-top: 140px;
   &-title {
+    padding-left: 20px;
     display: flex;
     color: $primary-color;
     align-items: flex-end;

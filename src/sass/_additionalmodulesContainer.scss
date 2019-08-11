@@ -53,7 +53,6 @@
                 }
                 & > img {
                     margin: 0 auto;
-                    
                 }
                 & > p {
                     @media only screen and (max-width: 800px) {
@@ -81,6 +80,7 @@
                             align-self: center;
                             padding-left: 20px;
                         } 
+                        margin-top: 20px;
                     }
                     & > span {
                         @media only screen and (max-width: 800px) {
