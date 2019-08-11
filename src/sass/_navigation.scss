@@ -1,8 +1,7 @@
 .navigation {
-    //display: none;
     position: fixed;
     top: -100%;
-    transition: top 1s;
+    transition: top .5s ease;
     right: 0;
     width: 100%;
     text-align: center;
@@ -11,11 +10,16 @@
     & > ul > li {
         margin-bottom: 45px;
         color: #52565a;
+        cursor: pointer;
+        &:hover {
+            color: $primary-color;
+        }
     }
     & > span {
         position: absolute;
         top: 40px;
         right: 40px;
+        cursor: pointer;
     }
 }
 .nav-menu {

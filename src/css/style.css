@@ -203,6 +203,9 @@
       color: gray;
       font-weight: 300; } }
 
+button {
+  cursor: pointer; }
+
 .contacts-container {
   width: 80%;
   margin: 0 auto;
@@ -695,8 +698,10 @@ input[type=number]::-webkit-outer-spin-button {
     top: 40%;
     left: 5%;
     width: 60px;
-    height: 60px; }
+    height: 60px;
+    cursor: pointer; }
   .feature-slider-container-arrows-right {
+    cursor: pointer;
     border-top: 2px solid #25719D;
     border-left: 2px solid #25719D;
     transform: rotate(135deg);
@@ -1444,7 +1449,7 @@ footer {
 .navigation {
   position: fixed;
   top: -100%;
-  transition: top 1s;
+  transition: top .5s ease;
   right: 0;
   width: 100%;
   text-align: center;
@@ -1452,11 +1457,15 @@ footer {
   padding: 60px 0 150px 0; }
   .navigation > ul > li {
     margin-bottom: 45px;
-    color: #52565a; }
+    color: #52565a;
+    cursor: pointer; }
+    .navigation > ul > li:hover {
+      color: #126696; }
   .navigation > span {
     position: absolute;
     top: 40px;
-    right: 40px; }
+    right: 40px;
+    cursor: pointer; }
 
 .nav-menu {
   cursor: pointer; }
