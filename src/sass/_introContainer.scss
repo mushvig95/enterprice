@@ -17,13 +17,19 @@
   text-align: center;
   &-bold {
     @media only screen and (max-width: 800px) {
-      padding: 0 10px;
+      padding: 20px 0;
+      font-size: 25px;
     }
     font-size: 48px;
     font-weight: 500;
     color: $primary-color;
   }
   &-regular {
+    @media only screen and (max-width: 800px) {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 25px;
+    }
     color: rgb(77, 77, 77);
     font-weight: 300;
     font-size: 36px;
@@ -51,7 +57,7 @@
       height: 100%;
       display: flex;
       flex-direction: column;
-      & > span {
+      & > input {
         margin: 0 auto;
         width: 100%;
         text-align: center;
@@ -62,9 +68,13 @@
         box-shadow: 0px 0px 20px 0px rgba(35, 31, 32, 0.2);
         margin-bottom: 10px;
       }
-      & > span:last-child {
+      & > span {
         background-color: $button-color;
         color: #fff;
+        padding: 15px 0;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        
       }
     }
   }
@@ -74,7 +84,7 @@
   @media only screen and (max-width: 800px) {
     display: block;
     text-align: center;
-    padding: 0 10px;
+    padding-top: 20px;
     height: 220px;
     background-image: url('../img/shapes/polygonmini.png');
     background-repeat: no-repeat;
@@ -82,6 +92,7 @@
     background-size: cover;
     color: $text-color;
     font-weight: 300;
+    font-size: 16px;
    }
   display: none;
 
