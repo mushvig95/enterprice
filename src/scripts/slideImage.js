@@ -127,8 +127,10 @@ for (let i = 0; i < 5; i++) {
   document.querySelector(`.arr${i + 1}`).addEventListener('click', () => {
     if (component[i].state) {
       document.querySelector(`.text${i + 1}`).style.display = 'none';
+      document.querySelector(`.arr${i + 1} span`).style.transform = 'rotate(45deg)';
     } else {
       document.querySelector(`.text${i + 1}`).style.display = 'block';
+      document.querySelector(`.arr${i + 1} span`).style.transform = 'rotate(225deg)';
     }
     component[i].state = !component[i].state
   });
