@@ -34,7 +34,6 @@
     }
     &-text {
       @media only screen and (max-width: 800px) {
-        padding: 0;
         text-align: center;
         padding-top: 20px;
         padding-left: 0 !important;
@@ -51,6 +50,9 @@
         font-weight: 500;
       }
       & > p:last-child {
+        @media only screen and (max-width: 800px) {
+          padding-top: 20px;
+        }
         font-size: 18px;
         font-weight: 100;
         padding-top: 10px;

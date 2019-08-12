@@ -1,10 +1,3 @@
-const slideContainer = document.querySelector(".image-slider-container-image");
-const slideContainerImages = document.querySelectorAll(
-  ".image-slider-container-image img"
-);
-const prevBtn = document.querySelector(".image-slider-container-arrows-left");
-const nextBtn = document.querySelector(".image-slider-container-arrows-right");
-/******************************************************************************** */
 const orderInput = document.querySelector(".contacts-container-call-number");
 const orderClickedText = document.querySelector(".contacts-container-call-text");
 const ordeerCallBtn = document.querySelector(".contacts-container-call-button");
@@ -34,6 +27,10 @@ ordeerCallBtn.addEventListener("click", () => {
 //  First slider
 let counter = 0;
 let width = 0;
+const slideContainer = document.querySelector(".image-slider-container-image");
+const slideContainerImages = document.querySelectorAll(".image-slider-container-image img");
+const prevBtn = document.querySelector(".image-slider-container-arrows-left");
+const nextBtn = document.querySelector(".image-slider-container-arrows-right");
 
 nextBtn.addEventListener("click", () => {
   if (counter === slideContainerImages.length - 1) {
@@ -197,7 +194,6 @@ document.querySelector('.feature-slider-container-arrows-left').addEventListener
 
 // Last Slider
 var doubled = $('.industry-container-slide-item');
-console.log(doubled);
 if ($(window).width() < 800) {
   doubled.unwrap();
 }
@@ -219,3 +215,11 @@ $(".industry-container-slide").slick({
     }
   }]
 });
+
+// division height
+function height() {
+  if ($(window).width() < 800) {
+    var he = document.querySelector('.features-icon-container').clientHeight;
+    document.querySelector('.feature-slide ').style.marginTop = `${he - 200}px`;
+  }
+} height();

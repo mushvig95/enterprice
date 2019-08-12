@@ -1,6 +1,12 @@
 .industry-container {
+  @media only screen and (max-width: 500px) {
+    padding-top: 0;
+  }
     padding-top: 80px;
     &-title {
+      @media only screen and (max-width: 800px) {
+        display: none;
+      }
         @include centered;
         text-align: center;
         & > h3 {
@@ -38,9 +44,14 @@
                 width: 100%;
                 height: 100%;
                 border-radius: 15px;
-                //filter: blur(3px);
+                filter: blur(3px);
             }
             & > span {
+              @media only screen and (max-width: 500px) {
+                font-size: 24px;
+                transform: translate(-50%);
+                left: 50%;
+              }
                 position: absolute;
                 top: 30px;
                 left: 50px;
@@ -49,6 +60,9 @@
                 font-weight: 100;
             }
             & > button {
+              @media only screen and (max-width: 500px) {
+                transform: translate(-50%);
+              }
                 bottom: 30px;
                 right: 30px;
                 position: absolute;
@@ -58,7 +72,7 @@
                 padding: 20px 25px;
                 font-size: 18px;
                 outline: none;
-                //filter: blur(2px);
+                filter: blur(2px);
             }
             .overlay {
                 @media only screen and (max-width: 500px) {

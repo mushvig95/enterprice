@@ -1,7 +1,8 @@
 .additional-modules-container {
     @media only screen and (max-width: 800px) {
-        margin-top: 70px;
+        margin-top: 50px;
         padding-bottom: 30px;
+        padding-top: 0;
     }
     background-color: $background-gray;
     padding-top: 85px;
@@ -21,7 +22,8 @@
                     width: 39%;
                 }
                   @media only screen and (max-width: 800px) {
-                    width: 100%;
+                    width: 95%;
+                    margin: 0 auto;
                 }
                 width: 26.5%;
                 display: flex;
@@ -38,7 +40,7 @@
                         width: 39%;
                     }
                       @media only screen and (max-width: 800px) {
-                        width: 100%;
+                        width: 95%;
                     }
                     width: 43.5%;
                 }
@@ -47,7 +49,7 @@
                         width: 39%;
                     }
                       @media only screen and (max-width: 800px) {
-                        width: 100%;
+                        width: 95%;
                     }
                     width: 43.5%;
                 }
@@ -74,17 +76,20 @@
                     @media only screen and (max-width: 800px) {
                         display: flex;
                         padding: 0 15px 0 15px;
+                        align-items: center;
                     }
                     & > h4 {
                         @media only screen and (max-width: 800px) {
                             align-self: center;
                             padding-left: 20px;
+                            margin-top: 0;
                         } 
                         margin-top: 20px;
                     }
                     & > span {
                         @media only screen and (max-width: 800px) {
                             transform: rotate(45deg);
+                            transition: transform .3s ease-in;
                             border: 2px solid rgb(0, 0, 0);
                             position: absolute;
                             top: 0;

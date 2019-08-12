@@ -1,4 +1,7 @@
 .features-container {
+  @media only screen and (max-width: 800px) {
+    margin-top: 100px;
+  }
   @include centered;
   margin-top: 140px;
   &-title {
