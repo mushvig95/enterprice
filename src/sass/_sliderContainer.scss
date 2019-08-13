@@ -8,6 +8,7 @@
   width: 100%;
   &-image {
     display: flex;
+    overflow: hidden;
     width: 125%;
       margin-left: -15%;
 
@@ -18,9 +19,6 @@
     }
   }
   &-arrows {
-    @media only screen and (max-width: 1513px) {
-      right: 25%;
-    }
     @media only screen and (max-width: 1283px) {
       right: 20%;
     }
@@ -39,10 +37,7 @@
   }
   &-text {
     @media only screen and (max-width: 1513px) {
-      left: 25%;
-    }
-    @media only screen and (max-width: 1513px) {
-      left: 22%;
+      left: 13%;
     }
     z-index: 100;
     position: absolute;
