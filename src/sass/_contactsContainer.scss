@@ -71,9 +71,8 @@
         padding-left: 20px;
         display: flex;
         &-icons {
-            display: flex;
-            &>i:first-child {
-                margin-right: 10px;
+            img {
+              width: 13px;
             }
         }
         & > div {

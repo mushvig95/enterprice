@@ -307,10 +307,8 @@ button {
     @media only screen and (max-width: 920px) {
       .contacts-container-socials {
         display: none; } }
-    .contacts-container-socials-icons {
-      display: flex; }
-      .contacts-container-socials-icons > i:first-child {
-        margin-right: 10px; }
+    .contacts-container-socials-icons img {
+      width: 13px; }
     .contacts-container-socials > div {
       margin-left: 20px; }
       .contacts-container-socials > div > span {
