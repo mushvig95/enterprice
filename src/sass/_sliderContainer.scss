@@ -8,10 +8,8 @@
   width: 100%;
   &-image {
     display: flex;
-    overflow: hidden;
     width: 125%;
-      margin-left: -15%;
-
+    margin-left: -15%;
     & > img {
       transform: scale(1.12);
       width: 100%;
