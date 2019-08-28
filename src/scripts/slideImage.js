@@ -1,27 +1,46 @@
 const orderInput = document.querySelector(".contacts-container-call-number");
 const orderClickedText = document.querySelector(".contacts-container-call-text");
-const ordeerCallBtn = document.querySelector(".contacts-container-call-button");
+const orderCallBtn = document.querySelector(".contacts-container-call-button");
 let isClicked = false;
 
-ordeerCallBtn.addEventListener("click", () => {
+orderCallBtn.addEventListener("click", () => {
   isClicked = !isClicked;
   if (isClicked) {
     orderInput.style.display = "none";
     orderClickedText.style.display = "block";
-    ordeerCallBtn.innerHTML = 'x'
-    ordeerCallBtn.style.width = '60px'
+    orderCallBtn.innerHTML = 'x'
+    orderCallBtn.style.width = '60px'
 
 
   } else {
     orderInput.style.display = "block";
     orderClickedText.style.display = "none";
-    ordeerCallBtn.style.width = '190px'
+    orderCallBtn.style.width = '190px'
     setTimeout(() => {
-      ordeerCallBtn.innerHTML = 'ЗАКАЗАТЬ ЗВОНОК'
+      orderCallBtn.innerHTML = 'ЗАКАЗАТЬ ЗВОНОК'
     }, 260)
 
   }
 });
+
+const mobileCallBtn= document.querySelector('.mobile-call-btn');
+const mobileCallText = document.querySelector('.mobile-call-text');
+let mobileBtnClicked = false;
+
+mobileCallBtn.addEventListener('click',()=> {
+  mobileBtnClicked = !mobileBtnClicked;
+  if(mobileBtnClicked) {
+    document.querySelector('.headerbg-inner-input').style.display = 'none';
+    mobileCallText.style.display = 'block';
+    mobileCallBtn.innerHTML = 'ОК'
+    mobileCallBtn.style.width = '80%'
+  } else {
+    document.querySelector('.headerbg-inner-input').style.display = 'block';
+    mobileCallText.style.display = 'none';
+    mobileCallBtn.innerHTML = 'Спасибо. Мы скоро вам позвоним'
+    mobileCallBtn.style.width = '100%'
+  }
+})
 
 
 //  First slider
