@@ -244,3 +244,7 @@ function height() {
     document.querySelector('.feature-slide ').style.marginTop = `${he - 200}px`;
   }
 } height();
+
+div.addEventListener('scroll',() =>
+    div.scrollTop = Math.max(1, Math.min(div.scrollTop, div.scrollHeight - div.clientHeight - 1))
+);

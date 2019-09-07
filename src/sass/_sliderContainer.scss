@@ -44,6 +44,9 @@
     top: 18%;
     left: 20%;
     color: white;
+    &-heading {
+      font-weight: 500;
+    }
     @media only screen and (max-width: 1283px) {
       font-size: 18px;
     }
