@@ -4,7 +4,6 @@
 @import './header';
 @import './introContainer';
 @import './contactsContainer';
-@import './sliderContainer';
 @import './phoneContainer';
 @import './featuresContainer';
 @import './featuresIcons';
@@ -21,9 +20,14 @@
 @import './footerContainer';
 @import './sliderSlick';
 @import './navigation';
+@import './mainContainerSlider';
 
 
 body, p, h1, h2, h3, h4, h5, h6, ul, li {
     @include reset-style;
     font-family: 'Gotham';
+}
+
+body, html {
+    overflow-x: hidden !important;
 }

@@ -44,34 +44,33 @@ mobileCallBtn.addEventListener('click',()=> {
 
 
 //  First slider
-let counter = 0;
-let width = 0;
-const slideContainer = document.querySelector(".image-slider-container-image");
-const slideContainerImages = document.querySelectorAll(".image-slider-container-image img");
-const prevBtn = document.querySelector(".image-slider-container-arrows-left");
-const nextBtn = document.querySelector(".image-slider-container-arrows-right");
 
-nextBtn.addEventListener("click", () => {
-  if (counter === slideContainerImages.length - 1) {
-    return;
-  } else {
-    slideContainer.style.transition = "transform 0.4s ease-in-out";
-    slideContainer.style.transform = `translateX(-${width + 100}%)`;
-    width = width + 100;
-    counter++;
+const nextBtn = document.querySelector('.main-slider-button-next');
+const prevBtn = document.querySelector('.main-slider-button-prev');
+const imgItem = document.querySelector('.main-slider-container-image-item');
+const slideItemLength = imgItem.childElementCount;
+let slideItem = 0;
+let currentPos = 1;
+
+nextBtn.addEventListener('click',()=> {
+  if(currentPos !== slideItemLength) {
+    slideItem+=100;
+    imgItem.style.right = `${slideItem}%`;
   }
+  currentPos !== slideItemLength && currentPos++;
+  console.log('currentPos',currentPos);
 });
 
-prevBtn.addEventListener("click", () => {
-  if (counter === 0) {
-    return;
-  } else {
-    slideContainer.style.transition = "transform 0.4s ease-in-out";
-    slideContainer.style.transform = `translateX(-${width - 100}%)`;
-    width = width - 100;
-    counter--;
+prevBtn.addEventListener('click',()=> {
+  if(currentPos !==1) {
+    slideItem-=100;
+    imgItem.style.right = `${slideItem}%`;
   }
-});
+  currentPos !==1 && currentPos--;
+  console.log('currentPos',currentPos);
+})
+
+
 // Middle Slider
 $(".slider-container-middle").slick({
   dots: true,
@@ -245,6 +244,6 @@ function height() {
   }
 } height();
 
-div.addEventListener('scroll',() =>
-    div.scrollTop = Math.max(1, Math.min(div.scrollTop, div.scrollHeight - div.clientHeight - 1))
-);
+// div.addEventListener('scroll',() =>
+//     div.scrollTop = Math.max(1, Math.min(div.scrollTop, div.scrollHeight - div.clientHeight - 1))
+// );
