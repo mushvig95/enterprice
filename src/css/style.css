@@ -680,6 +680,10 @@ input[type=number]::-webkit-outer-spin-button {
         background-color: #126696;
         color: #fff; }
 
+.nav-active {
+  background-color: #126696;
+  color: #fff !important; }
+
 .feature-slide {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#F7F8FA), to(#fff));
   background-image: -o-linear-gradient(#F7F8FA, #fff);

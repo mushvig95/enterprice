@@ -167,8 +167,9 @@ document.querySelector('.close').addEventListener('click', () => {
 
 const track = document.querySelector('.features-slide-img-container');
 const slides = Array.from(track.children);
-let count = 0;
+let count = 1;
 let wdth = 0;
+let reviewed = 0;
 
 function getSlides() {
   if ($(window).width() > 800) {
@@ -178,9 +179,16 @@ function getSlides() {
 
     for (let i = 1; i < slides.length + 1; i++) {
       document.querySelector(`.nav${i}`).addEventListener('mouseover', () => {
-        count = i - 1;
+        count = i;
         wdth = (i - 1) * 100;
         track.style.transform = `translateX(-${(i - 1) * 100}%)`;
+        for(let k = 1; k < slides.length +1; k ++) {
+          if(k === i && document.querySelector(`.nav${k}`).classList) {
+            document.querySelector(`.nav${k}`).classList.add('nav-active');
+          } else {
+            document.querySelector(`.nav${k}`).classList.remove('nav-active');
+          }
+        }
       })
     }
   }
@@ -191,7 +199,7 @@ let featureContainer = document.querySelector('.features-slide-img-container');
 let featureContainerContent = document.querySelectorAll('.features-slide-img-container-content');
 
 document.querySelector('.feature-slider-container-arrows-right').addEventListener("click", () => {
-  if (count === featureContainerContent.length - 1) {
+  if (count === featureContainerContent.length) {
     return;
   } else {
     featureContainer.style.transition = "transform 0.4s ease-in-out";
@@ -199,16 +207,30 @@ document.querySelector('.feature-slider-container-arrows-right').addEventListene
     wdth = wdth + 100;
     count++;
   }
+  for(let k = 1; k < featureContainerContent.length+1; k ++) {
+    if(k === count && document.querySelector(`.nav${k}`).classList) {
+      document.querySelector(`.nav${k}`).classList.add('nav-active');
+    } else {
+      document.querySelector(`.nav${k}`).classList.remove('nav-active');
+    }
+  }
 });
 
 document.querySelector('.feature-slider-container-arrows-left').addEventListener("click", () => {
-  if (count === 0) {
+  if (count === 1) {
     return;
   } else {
     featureContainer.style.transition = "transform 0.4s ease-in-out";
     featureContainer.style.transform = `translateX(-${wdth - 100}%)`;
     wdth = wdth - 100;
     count--;
+  }
+  for(let k = 1; k < featureContainerContent.length+1; k ++) {
+    if(k === count && document.querySelector(`.nav${k}`).classList) {
+      document.querySelector(`.nav${k}`).classList.add('nav-active');
+    } else {
+      document.querySelector(`.nav${k}`).classList.remove('nav-active');
+    }
   }
 });
 
