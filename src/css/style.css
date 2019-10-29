@@ -1620,7 +1620,8 @@ footer {
       font-weight: 100;
       color: #ace1ff; }
       .footer-container-list > ul > li > a {
-        text-decoration: none; }
+        text-decoration: none;
+        color: #ace1ff; }
         .footer-container-list > ul > li > a:visited {
           color: #ace1ff; }
 
